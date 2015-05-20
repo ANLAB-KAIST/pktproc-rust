@@ -1,0 +1,15 @@
+[package]
+name = "A sample packet processing library"
+version = "0.1.0"
+authors = ["Joongi Kim <joongi@an.kaist.ac.kr>"]
+
+[lib]
+name = "pktproc"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.1.7"
+
+[profile.release]
+opt-level = 2
+debug = true

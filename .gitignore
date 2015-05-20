@@ -30,3 +30,11 @@
 
 # Debug files
 *.dSYM/
+
+# Rust/Cargo temporary files
+Cargo.lock
+libpktproc/target/
+
+# Binaries
+c-main/pktproc
+rust-main/pktproc
