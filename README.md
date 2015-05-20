@@ -1,2 +1,2 @@
 # pktproc-rust
-A small pilot project to evaluate Rust for packet processing
+A small pilot project to evaluate [Rust](http://rust-lang.org) for packet processing
